@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Archivo+Black & family= Archivo:wght@100 & family= Roboto:wght@100;400 & display= troca');
+
+/*Códigos utilizados para as páginas dos departamentos*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 100%;
+  background: #FFFFFF;
+  background: linear-gradient(116.82deg, #FFFFFF 0%, #FAFAFA 13.01%, #DAA4AC 100%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #C1707B;
+}
+
+.img-seta{
+  height: 25px;
+}
+
+.img-icon {
+  height: 72px;
+}
+
+.cabecalho h3{
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.datetime{
+  color: #FFFFFF;
+}
+
+/*Conteúdo da sessão "O que nossa empresa faz por você?"*/
+
+.conteudo-principal2 {
+  border-top: 0.4px solid #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+  
+.conteudo-principal2-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  border-top: 0.4px solid #af6666;
+
+}
+  
+.conteudo-principal2-escrito-titulo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 34px;
+  color: #7c4a47;
+  text-align: center;
+}
+
+.conteudo-secundario2-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 530;
+  font-size: 21px;
+  color: #7F3E3B;
+  text-align:justify;
+}
+
+
+.conteudo-principal2-imagem {
+  height: 530px;
+}
+
+.text-marcadores{
+  font-family: 'Sarala', sans-serif;
+  font-weight: 530;
+  font-size: 20px;
+  color: #7F3E3B;
+  text-align:justify;
+}
+
+.rodape{
+  padding: 32px;
+  border-top: 0.4px solid #F9FFFB;
+  background-color: #ab5a65;
+}
+
+.rodape-imagem{
+  height: 58px;
+  display: block;
+  margin: 0 auto;
+}
+
+.rodape h3{
+  text-align: center;
+  color: #FFFFFF;
+}
